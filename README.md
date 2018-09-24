@@ -1,13 +1,14 @@
-# eBay Mock-Up Project 
+# eBay Mock-Up Project
 
 Mobile only version of an eBay web-page. (Partly responsive at the moment. A more responsive design is in the works.)
 
-* HTML 
-* CSS 
+* HTML
+* CSS
 
-* Bootstrap 
-* Flexbox 
+* Bootstrap
+* Flexbox
 
 Cheers,
 
 William
+HEY - GOOD Job
