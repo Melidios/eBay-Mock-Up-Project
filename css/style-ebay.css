@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*reset*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Open Sans;
+}
+
+html,
+body {
+	background-color: #EBC79E;
+}
+
+#content-wrapper {
+	background-color: #f6f6f6;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	box-shadow: .5px .5px 15px .25px lightgrey;
+	border-radius: 5px;
+}
+
+.span-link a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.span-link a:active {
+	color: green;
+	text-decoration: none;
+}
+
+/*header*/
+.item-search {
+	display: flex;
+	justify-content: center;
+	margin-left: 1.7em;
+}
+
+input[type="text"] {
+	width: 90px;
+	height: 28px;
+	font-size: 12px;
+}
+
+button[type="submit"] {
+	height: 30px;
+}
+
+
+select[type="button"] {
+	font-size: 12px;
+	vertical-align: top;
+}
+
+.btn-light {
+	width: 80px;
+	height: 32px;
+}
+
+.ebay-logo {
+	margin: 1em;
+	box-shadow: none;
+}
+
+
+.user-icons span i {
+	margin: .25em;
+	margin-bottom: -.25em;
+	padding-top: .25em;
+	font-size: 10px;
+	vertical-align: middle;
+
+}
+
+.box-select {
+	padding-right: 5px;
+}
+
+
+/*top row section*/
+
+.flex-container-3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container-3 div {
+	margin: 0 .5em 0 .5em;
+	flex-basis: 50%;
+}
+
+.small-text-spans {
+	display: inline-flex;
+	padding: 5px 10px 0 0;
+	color: grey;
+}
+
+.small-text-spans span {
+	font-size: 8px;
+}
+`
+.globe {
+	padding-left: 1.5em;
+}
+
+.fa-eye {
+	padding-right: .5em;
+}
+
+.fa-globe-asia {
+	padding-right: .5em;
+}
+
+.olive-shop span a i {
+	vertical-align: top;
+}
+
+.span-link .fa-circle {
+	font-size: 3px;
+	vertical-align: middle;
+}
+
+.span-link {
+	font-size: 8px;
+	text-align: center;
+	margin-left: 5em;
+	margin-top: -10px;
+}
+
+.span-link i {
+	font-size: 5px;
+	color: grey;
+}
+
+/*second row section*/
+.flex-container-4 {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container-4 div {
+	flex-basis: 50%;
+}
+
+.sub-flex {
+	margin-left: 1.5em;
+}
+
+.top-right-spans {
+	font-size: 8px;
+	color: grey;
+}
+
+.main-watch img {
+	width: 100%;
+}
+
+.text-color-span {
+	color: grey;
+}
+
+.top-right-colors {
+	font-size: 8px;
+	text-align: left;
+	margin-top: 1em;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: #323232;
+}
+
+.blue {
+	color: #5088cc;
+}
+
+.red {
+	color: #A8224A;
+}
+
+.orange {
+	color: #FFB653;
+}
+
+.turqoise {
+	color: #00C9AF;
+}
+
+.quantity-dropdown {
+	font-size: 8px;
+	text-align: left;
+	margin-top: 1em;
+	color: grey;
+}
+
+.quantity-dropdown .btn-light {
+	width: 40px;
+	height: 20px;
+	margin-left: .5em;
+}
+
+.price {
+	background-color: white;
+	margin-top: .5em;
+	font-size: 10px;
+	text-align: center;
+	color: #5088cc;
+	border-radius: 5px;
+}	
+
+#price-text {
+	color: grey;
+	font-size: 8px;
+}
+
+.buy-it-now {
+	color: #5cb85c;
+	text-align: center;
+}
+
+.buy-it-now-text {
+	color: #5cb85c;
+	text-align: left;
+}
+
+.buy-it-now-text a {
+	color: #5cb85c;
+}
+
+.sub-flex-2 {
+	display: flex;
+	flex-direction: row;
+	margin-right: 1.25em;
+}
+
+.cart-options {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: .75em;
+	font-size: 5px;
+	text-align: left;
+	color: grey;
+	border-left: 1px solid lightgrey;
+	border-radius: 5px;
+}	
+
+.add-item {
+	padding: .75px;
+	justify-content: center;
+	margin-left: 5px;
+}
+
+.fa-folder {
+	padding-right: .5em;
+}
+
+.fa-shopping-cart {
+	padding-right: .5em;
+}
+
+/*third row section*/ 
+
+.flex-container-5 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flex-container-5 div {
+	flex-basis: 50%;
+}
+
+.second-watch {
+	margin-top: 1em;
+}
+
+.second-watch img {
+	width: 95%;
+}
+
+.flex-container-6 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flex-container-6 div {
+	flex-basis: 50%;
+}
+
+.third-watch {
+	margin-top: 1em;
+}
+
+.third-watch img {
+	width: 95%;
+}
+
+.flex-container-7 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.watch-left {
+	order: 1;
+	flex-basis: 50%;
+	margin-top: 1em;
+}
+
+.watch-right {
+	flex-basis: 50%;
+	margin-top: 1em;
+}
+
+
+.flex-container-7 img {
+	width: 95%;
+}
+
+/*bottom section*/
+
+footer {
+	background-color: #191919;
+	margin: .5em 0 -1em 0;
+}
+
+.back-to-top {
+	color: white;
+	text-align: center;
+}
+
+.back-to-top i {
+	margin-right: .5em;
+}
+
+.flex-container-8 ul {
+	display: inline-flex;
+	flex-direction: column;
+	color: white;
+	font-size: 8px;
+}
+
+.flex-container-8 ul li {
+	margin-top: .25em;
+	margin-left: 1em;
+}
+
+.footer-img {
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 900px) {
+
+/*header*/
+#flex-container {
+	display: flex;
+	align-items: center;
+}
+
+.item-search {
+	flex-direction: row;
+	flex: 1;
+	}
+
+input[type="text"] {
+	width: 200px;
+	font-size: 12px;
+}
+
+
+.btn-light {
+	width: 100px;
+	height: 32px;
+}
+
+.box-select {
+	vertical-align: middle;
+	padding: 0 1em 0 1em;
+}
+
+.user-icons span i {
+	margin-bottom: .25em;
+	margin-left: -.5em;
+	margin-right: 1.5em;
+	vertical-align: middle;
+}
+
+.ebay-logo {
+	margin-left: 1.5em;
+}
+
+.flex-container-4 {
+	size: 50%;
+}
+
+}
+
+@media only screen and (min-width: 1024) {
+
+/*header*/
+#flex-container {
+	display: flex;
+	align-items: center;
+}
+
+.item-search {
+	flex-direction: row;
+	flex: 1;
+	}
+
+input[type="text"] {
+	width: 500px;
+	font-size: 12px;
+}
+
+
+.btn-light {
+	width: 300px;
+	height: 32px;
+}
+
+.box-select {
+	vertical-align: middle;
+	padding: 0 1em 0 1em;
+}
+
+.user-icons span i {
+	margin-bottom: .25em;
+	margin-left: -.5em;
+	margin-right: 1.5em;
+	vertical-align: middle;
+}
+
+.ebay-logo {
+	margin-left: 1.5em;
+}
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+/*header*/
+#flex-container {
+	display: flex;
+	align-items: center;
+}
+
+.item-search {
+	flex-direction: row;
+	flex: 1;
+	}
+
+input[type="text"] {
+	width: 500px;
+	font-size: 12px;
+}
+
+
+.btn-light {
+	width: 400px;
+	height: 32px;
+}
+
+.box-select {
+	vertical-align: middle;
+	padding: 0 1em 0 1em;
+}
+
+.user-icons span i {
+	margin-bottom: .25em;
+	margin-left: -.5em;
+	margin-right: 1.5em;
+	vertical-align: middle;
+}
+
+.ebay-logo {
+	margin-left: 1.5em;
+}
+
+}
+
+
+
